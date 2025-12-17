@@ -15,7 +15,15 @@ public class NewfileEntity{
     public NewfileEntity(Long id,@NotBlank(message="should not contain spaces") String name,@NotBlank(message="no blank allowed") @Email(message="invalid format") String email){
         this.id=id;
         this.name=name;
+        this.email=email;
     }
+    public NewfileEntity(){
+
+    }
+    public Long getId(){
+        return id;
+    }
+    public void set
 
 }
 
