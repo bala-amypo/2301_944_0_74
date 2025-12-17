@@ -23,7 +23,9 @@ public class NewfileEntity{
     public Long getId(){
         return id;
     }
-    public void set
+    public void setId(){
+        return id
+    }
 
 }
 
