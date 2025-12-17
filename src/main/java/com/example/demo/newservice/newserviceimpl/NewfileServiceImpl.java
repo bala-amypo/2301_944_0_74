@@ -24,11 +24,12 @@ public class NewfileServiceImpl implements NewfileService{
     }
     @Override
     public List<NewfileEntity> getall(){
+        return rep.findAll();
         
     }
     @Override
     public NewfileEntity update(Long id,NewfileEntity newfile){
-        
+        NewfileEntity
     }
     @Override
     public void delete(Long id){
