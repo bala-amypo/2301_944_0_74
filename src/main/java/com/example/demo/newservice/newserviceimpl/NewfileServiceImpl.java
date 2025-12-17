@@ -1,8 +1,15 @@
 package com.example.demo.newserviceimpl;
+import java.util.List;
+import org.springframework.stereotype.Service;
 
 
+@Service
 public class NewfileServiceImpl implements NewfileService{
+    private final NewfileRepo rep;
 
+    NewfileServiceImpl(){
+        this.rep=rep;
+    }
     @Override
     public NewfileEntity savedata(NewfileEntity newfile){
 
